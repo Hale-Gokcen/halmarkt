@@ -51,9 +51,10 @@
 }
 
 .heroAssetFrame {
-  display: flex;
+  display: fixed;
   justify-content: center;
   margin: 24px auto 0;
+  margin-top: 125px;
   padding: 2em;
   overflow: hidden;
 }
@@ -106,6 +107,7 @@
 }
 
 .heroCtaContainer {
+  margin-top: -150px;
   display: flex;
   flex-direction: row;
   align-items: center;
